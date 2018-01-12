@@ -25,6 +25,7 @@ h2 {
 ul {
     list-style-type: none;
 }
+/* 首页样式 */
 .g-hb{
     width:100%;
 }
@@ -37,4 +38,129 @@ ul {
     display: block;
     padding: 10px 26px;
  }
+
 }
+@media screen and (min-width: 992px){
+
+//  .g-index-core .m-index-detail .u-core-box img{
+//     width:100%;
+// }
+}
+
+.g-logo{
+    padding:0px 0px;
+}
+.g-logo img{
+    height: 48px;
+}
+/* 核心业务样式 */
+.g-index-core{
+    background-color:#f8f8f8;
+}
+.g-index-core .m-index-title .u-index-word{
+    color:#cb2a39;
+    font-family: 微软雅黑;
+    font-size: 24px;
+    text-align: center;
+    padding-top: 35px;
+}
+.g-index-core .m-index-title .u-index-line{
+    top:10px;
+    height:2px;
+    width:50px;
+    margin-bottom: 10px;
+    background-color: #cb2a39;
+}
+.g-index-core .m-index-title .u-index-detail{
+    font-family:微软雅黑;
+    font-size: 16px;
+    text-align:center;
+    margin-bottom:36px;
+}
+.g-index-core .m-index-detail .u-detail-core{
+    text-align:center;
+    margin-bottom:44px;
+}
+.g-index-core .m-index-detail .u-core-box{
+    background-color:#f0f0f2;
+}
+.g-index-core .m-index-detail .u-core-box img{
+     width:210px;
+}
+.g-index-core .m-index-detail p{
+    margin-top: 10px;
+    padding-bottom: 10px;
+    color:#cb2a39;
+}
+
+/* 公司简介样式 */
+/* -----标题------- */
+.g-index-company .m-index-title .u-index-word{
+    color:#cb2a39;
+    font-family: 微软雅黑;
+    font-size: 24px;
+    text-align: center;
+    padding-top: 35px;
+}
+.g-index-company .m-index-title .u-index-line{
+    top:10px;
+    height:2px;
+    width:50px;
+    margin-bottom: 10px;
+    background-color: #cb2a39;
+}
+.g-index-company .m-index-title .u-index-detail{
+    font-family:微软雅黑;
+    font-size: 16px;
+    text-align:center;
+    margin-bottom:36px;
+}
+/* -----标题结束------- */
+.g-index-company .m-company-detail{
+    text-align:center;
+    position:relative;
+}
+.g-index-company .m-company-detail .u-img-bg{
+    margin-bottom: 44px;
+}
+.g-index-company .m-company-detail .u-company-hd{
+    position: absolute;
+    top: 12px;
+    z-index: 6;
+    margin-left: 42%;
+    font-size: 20px;
+}
+.g-index-company .m-company-detail .u-company-hb{
+    width: 300px;
+    line-height: 24px;
+    font-size: 18px;
+    position: absolute;
+    top: 52px;
+    margin-left: 42%;
+}
+/* ----新闻动态样式--- */
+.g-index-news{
+    background-color:#f8f8f8;
+}
+/* ----标题---- */
+.g-index-news .m-index-title .u-index-word{
+    color:#cb2a39;
+    font-family: 微软雅黑;
+    font-size: 24px;
+    text-align: center;
+    padding-top: 35px;
+}
+.g-index-news .m-index-title .u-index-line{
+    top:10px;
+    height:2px;
+    width:50px;
+    margin-bottom: 10px;
+    background-color: #cb2a39;
+}
+.g-index-news .m-index-title .u-index-detail{
+    font-family:微软雅黑;
+    font-size: 16px;
+    text-align:center;
+    margin-bottom:36px;
+}
+/* ----标题结束 -----*/
