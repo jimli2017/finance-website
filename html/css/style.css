@@ -38,13 +38,26 @@ ul {
     display: block;
     padding: 10px 26px;
  }
-
+ .g-index-news .m-news-detail .u-news-img img{
+    width:100%;
 }
+ }
+
+
+@media screen and (max-width: 768px){
+
+ /* 首页新闻模块标题文字部分 */
+ .g-index-news .u-nwes-word,.u-nwes-btn{
+    width:361px;
+ }
+}
+
+
 @media screen and (min-width: 992px){
 
-//  .g-index-core .m-index-detail .u-core-box img{
-//     width:100%;
-// }
+.g-index-news .m-news-detail .u-news-img img{
+    width:100%;
+}
 }
 
 .g-logo{
@@ -141,6 +154,7 @@ ul {
 /* ----新闻动态样式--- */
 .g-index-news{
     background-color:#f8f8f8;
+    padding-bottom:44px;
 }
 /* ----标题---- */
 .g-index-news .m-index-title .u-index-word{
@@ -164,3 +178,70 @@ ul {
     margin-bottom:36px;
 }
 /* ----标题结束 -----*/
+.g-index-news .m-news-detail{
+    text-align:center;
+}
+.g-index-news .m-news-detail .u-nwes-word .u-news-top{
+    font-size: 18px;
+    margin-top:10px;
+}
+.g-index-news .m-news-detail .u-nwes-word .u-news-content{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.m-news-detail .u-nwes-btn .u-index-btn{
+    background-color:#efeff1;
+    width:100%;
+    height:50px;
+}
+.g-index-news .m-news-detail .m-news-box{
+    margin-bottom:20px;
+}
+
+/* -------底部样式-------- */
+.m-ft-table thead tr th{
+    padding: 8px;
+    line-height: 1.42857143;
+    vertical-align: top;
+    border-top:0px;
+    border-bottom: 0px;
+}
+.m-ft-table>tbody>tr>td, .m-ft-table>tbody>tr>th, .m-ft-table>tfoot>tr>td, .m-ft-table>tfoot>tr>th, .m-ft-table>thead>tr>td, .m-ft-table>thead>tr>th{
+    border-top:0px;
+}
+.m-ft-hd .table-responsive{
+    border:0px;
+}
+.g-ft .m-ft-hd{
+     background-color:#323232;
+}
+.g-ft .m-ft-hd .m-ft-table{
+    color:#d1d7db;
+    margin-top: 26px;
+}
+.g-ft .m-ft-hd .m-ft-ul{
+    margin-top: 26px;
+}
+.g-ft .m-ft-hd .m-ft-ul p{
+    color:#d1d7db;
+}
+.g-ft .m-ft-hd .m-ft-ul .u-ul-logo{
+    height:50px;
+}
+.g-ft .m-ft-hd .m-ft-ul .u-ul-phone{
+    height:30px;
+    margin-right: 10px;
+}
+.g-ft .m-ft-hd .m-ft-ul .u-ul-email{
+    height:30px;
+    margin-right: 10px;
+}
+.g-ft .m-ft-bottom{
+    color:#d1d7db;
+    text-align:center;
+    background-color:#1e1e1e;
+}
+.g-ft .m-ft-bottom p{
+    line-height:30px;
+    color:#d1d7db;
+}
