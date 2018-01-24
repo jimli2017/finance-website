@@ -50,6 +50,15 @@ ul {
  .g-index-news .u-nwes-word,.u-nwes-btn{
     width:361px;
  }
+ /* --公司简介左侧导航 --*/
+ .g-about-bd .m-lift-nav ul li{
+    float: left;
+    margin-left:10px;
+    text-align:center;
+ }
+ .g-about-bd .m-lift-nav ul{
+    text-align:center;
+ }
 }
 
 
@@ -244,4 +253,35 @@ ul {
 .g-ft .m-ft-bottom p{
     line-height:30px;
     color:#d1d7db;
+}
+
+/* ----------公司简介----------- */
+.g-banner{
+    margin-top:51px;
+}
+.g-banner img{
+    width:100%;
+}
+.g-about-bd{
+    padding-top:26px;
+    background-color:#f8f8f8;
+}
+.g-about-bd .m-lift-nav{
+    background-color:red;
+}
+.g-about-bd .m-right-content{
+    background-color:blue;
+
+}
+.g-about-bd .m-lift-nav .m-lift-detail{
+    background-color:#fff;
+    padding-left:5px;
+}
+.g-about-bd .m-lift-nav .m-lift-detail img{
+    margin-right:5px;
+}
+.g-about-bd .m-lift-nav .m-lift-detail li{
+    height:50px;
+    line-height:50px;
+    border-bottom:1px solid #ccc;
 }
