@@ -25,57 +25,154 @@ h2 {
 ul {
     list-style-type: none;
 }
-/* 首页样式 */
-.g-hb{
-    width:100%;
-}
+
+
+/* -----响应式布局------- */
 @media screen and (min-width: 768px){
- .g-hd{
-    width:80%;
+ .g-box .g-hd{
+    width:100%;
  }
  .hd.nav>li>a{
     position: relative;
     display: block;
     padding: 10px 26px;
  }
+/* --新闻动态图片宽度-- */
  .g-index-news .m-news-detail .u-news-img img{
     width:100%;
 }
- }
+/* --公司简介左侧导航-- */
+.g-about-bd .m-lift-nav .m-lift-detail li{
+    height:50px;
+    line-height:50px;
+    border-bottom:1px solid #ccc;
+    padding-left:15px;
+}
+/* --公司简介图片展示隐藏-- */
+.g-about-bd .m-right-content .m-detail-bd .u-about-content .u-about-imgmix img{
+    display: block;
+    width: 150px;
+    float: left;
+}
+/* --公司简介文字部分布局-- */
+.g-about-bd .m-right-content .m-detail-bd .u-about-content .u-about-imgmix{
+    float: left;
+    width:30%;
+
+}
+
+.g-about-bd .m-right-content .m-detail-bd .u-about-content .u-about-text{
+    float: left;
+    width:69%;
+
+}
+/* --公司简介——合作伙伴logo展示宽度-- */
+.g-about-bd .m-detail-bd .u-panter-logo img{
+    height:73px;
+}
+}
 
 
 @media screen and (max-width: 768px){
-
+.g-box .g-hd{
+    width:100%;
+ }
  /* 首页新闻模块标题文字部分 */
  .g-index-news .u-nwes-word,.u-nwes-btn{
     width:361px;
  }
  /* --公司简介左侧导航 --*/
- .g-about-bd .m-lift-nav ul li{
-    float: left;
-    margin-left:10px;
-    text-align:center;
- }
  .g-about-bd .m-lift-nav ul{
     text-align:center;
  }
+ /* --公司简介左侧导航标题-- */
+.g-about-bd .m-lift-nav .m-lift-detail li{
+    float: left;
+    height:45px;
+    line-height:44px;
+    width: 92px;
+    text-align:center;
+    border-bottom:none;
+}
+/* --公司简介图片展示隐藏-- */
+.g-about-bd .m-right-content .m-detail-bd .u-about-content .u-about-imgmix{
+    display: none;
+}
+/* --公司简介文字部分布局-- */
+.g-about-bd .m-right-content .m-detail-bd .u-about-content .u-about-imgmix{
+    float: left;
+    width:0%;
+
+}
+
+.g-about-bd .m-right-content .m-detail-bd .u-about-content .u-about-text{
+    float: left;
+    width:100%;
+
+}
+/* --公司简介——合作伙伴logo展示宽度-- */
+.g-about-bd .m-detail-bd .u-panter-logo img{
+    height:86px;
+}
 }
 
 
 @media screen and (min-width: 992px){
-
+/* --导航栏宽度-- */
+.g-box .g-hd{
+    width:85%;
+ }
+/* --首页新闻图片宽度-- */
 .g-index-news .m-news-detail .u-news-img img{
     width:100%;
 }
+/* --公司简介左侧导航标题-- */
+.g-about-bd .m-lift-nav .m-lift-detail li{
+    height:50px;
+    line-height:50px;
+    border-bottom:1px solid #ccc;
+    padding-left:15px;
+
+}
+/* --公司简介图片展示隐藏-- */
+.g-about-bd .m-right-content .m-detail-bd .u-about-content .u-about-imgmix img{
+    width: 200px;
+    display:block;
+    float: left;
+}
+/* --公司简介文字部分布局-- */
+.g-about-bd .m-right-content .m-detail-bd .u-about-content .u-about-imgmix{
+    float: left;
+    width:30%;
+
 }
 
+.g-about-bd .m-right-content .m-detail-bd .u-about-content .u-about-text{
+    float: left;
+    width:69%;
+
+}
+/* --公司简介——合作伙伴logo展示宽度-- */
+.g-about-bd .m-detail-bd .u-panter-logo img{
+    width: 100%;
+}
+}
+
+/* -----/响应式布局----- */
+
+
+
+/* ------首页样式------- */
+.g-hb{
+    width:100%;
+}
 .g-logo{
     padding:0px 0px;
 }
 .g-logo img{
     height: 48px;
 }
-/* 核心业务样式 */
+/* -------核心业务样式------- */
 .g-index-core{
     background-color:#f8f8f8;
 }
@@ -230,6 +327,7 @@ ul {
 }
 .g-ft .m-ft-hd .m-ft-ul{
     margin-top: 26px;
+    text-align:center;
 }
 .g-ft .m-ft-hd .m-ft-ul p{
     color:#d1d7db;
@@ -267,21 +365,86 @@ ul {
     background-color:#f8f8f8;
 }
 .g-about-bd .m-lift-nav{
-    background-color:red;
+
 }
 .g-about-bd .m-right-content{
-    background-color:blue;
+    background-color:#fff;
+    padding-bottom:30px;
 
 }
 .g-about-bd .m-lift-nav .m-lift-detail{
     background-color:#fff;
-    padding-left:5px;
+
 }
 .g-about-bd .m-lift-nav .m-lift-detail img{
     margin-right:5px;
 }
-.g-about-bd .m-lift-nav .m-lift-detail li{
+
+.g-about-bd .m-lift-detail .u-nav-title{
+    background-color:#cb2a39;
+    font-size:18px;
+    color: #fff;
+}
+.g-about-bd .m-lift-nav .m-lift-detail li a{
+    color:#494949;
+}
+.g-about-bd .m-lift-nav .m-lift-detail li a:hover{
+    color:#cb2a39;
+}
+.g-about-bd .m-right-content .m-detail-hd{
     height:50px;
     line-height:50px;
     border-bottom:1px solid #ccc;
+}
+.g-about-bd .m-right-content .u-hd-lift{
+    float: left;
+}
+.g-about-bd .m-right-content .u-hd-lift img{
+    height:30px;
+}
+.g-about-bd .m-right-content .u-hd-lift p{
+    font-size: 18px;
+    margin-bottom:0px;
+    border-bottom:1px solid #cb2a39;
+}
+.g-about-bd .m-right-content .u-hd-right{
+    float: right;
+}
+.g-about-bd .m-right-content .u-hd-right p{
+    font-size: 14px;
+    margin-bottom:0px;
+}
+.g-about-bd .m-right-content .u-hd-right span{
+    color: #cb2a39;
+}
+.g-about-bd .m-right-content .m-detail-bd{
+    clear: both;
+}
+.g-about-bd .m-right-content .m-detail-bd .u-about-top{
+    padding:15px 15px;
+    margin-top:15px;
+    color:#1e1e1e;
+    background-color:#cb2a39;
+}
+.g-about-bd .m-right-content .m-detail-bd .u-about-content{
+
+    margin-top:15px;
+}
+.g-about-bd .m-right-content .m-detail-bd .u-about-content .u-about-imgmix img{
+    box-shadow: 4px 4px 4px #d4d4d4;
+}
+
+
+
+/* ------公司简介——合作伙伴------ */
+.g-about-bd .m-detail-bd .u-panter-logo{
+    border:1px solid #ccc;
+    text-align:center;
+}
+
+.g-about-bd .m-right-content .m-detail-bd .m-panter-right{
+    padding-top: 30px;
+}
+.g-about-bd .m-right-content .m-detail-bd .m-panter-righttwo{
+    padding-top: 15px;
 }
