@@ -70,6 +70,10 @@ ul {
 .g-about-bd .m-detail-bd .u-panter-logo img{
     height:73px;
 }
+/* --产品中心——产品展示图宽度-- */
+.m-product-showimg .u-product-img img{
+    width:100%;
+}
 }
 
 
@@ -114,6 +118,11 @@ ul {
 .g-about-bd .m-detail-bd .u-panter-logo img{
     height:86px;
 }
+/* --产品中心——产品展示图宽度-- */
+.m-product-showimg .u-product-img img{
+    width:100%;
+}
+
 }
 
 
@@ -156,6 +165,11 @@ ul {
 .g-about-bd .m-detail-bd .u-panter-logo img{
     width: 100%;
 }
+/* --产品中心——产品展示图宽度-- */
+.m-product-showimg .u-product-img img{
+    width:100%;
+}
+
 }
 
 /* -----/响应式布局----- */
@@ -369,7 +383,7 @@ ul {
 }
 .g-about-bd .m-right-content{
     background-color:#fff;
-    padding-bottom:30px;
+    padding-bottom:60px;
 
 }
 .g-about-bd .m-lift-nav .m-lift-detail{
@@ -405,6 +419,7 @@ ul {
 .g-about-bd .m-right-content .u-hd-lift p{
     font-size: 18px;
     margin-bottom:0px;
+    color: #1e1e1e;
     border-bottom:1px solid #cb2a39;
 }
 .g-about-bd .m-right-content .u-hd-right{
@@ -448,3 +463,79 @@ ul {
 .g-about-bd .m-right-content .m-detail-bd .m-panter-righttwo{
     padding-top: 15px;
 }
+
+
+/* -----------人力资源---------- */
+.m-right-content .m-detail-bd .m-people-showimg{
+    padding-left:0px;
+}
+.m-people-showimg .u-people-img img{
+    width:100%;
+}
+.m-people-margin{
+    margin-top:20px;
+}
+.m-people-margin .m-people-showtext .u-people-wordName{
+    font-size: 18px;
+    color: #1e1e1e;
+    font-weight:bold;
+}
+.m-people-margin .m-people-showtext .u-people-wordJob{
+    font-size: 16px;
+    font-weight:bold;
+}
+.m-people-page{
+    position:absolute;
+    z-index:1;
+    bottom: -20px;
+    right:15px;
+}
+.pagination>li>a:hover{
+    background-color:#cb2a39;
+}
+
+/* -----------产品中心---------- */
+
+.m-right-content .m-detail-bd .m-product-showimg{
+    padding-left:0px;
+    margin-top:20px;
+}
+.m-product-showimg .u-product-img{
+    border: 1px solid #ccc;
+}
+.m-product-showimg .u-product-img:hover{
+    border: 1px solid #cb2a39;
+}
+.m-product-showimg .u-product-img p{
+    text-align:center;
+    padding-top: 10px;
+
+}
+.m-product-showimg .u-product-img a:hover p,.m-product-showimg .u-product-img a:hover{
+    color:#cb2a39;
+}
+/* -----------产品详情---------- */
+.m-product-dtTitle{
+    margin-top:16px;
+}
+.m-product-dtTitle .u-dt-title{
+    text-align:center;
+    font-size: 18px;
+    color:#1e1e1e;
+    font-weight:bold;
+}
+.m-product-dtTitle .u-dt-time{
+    text-align:center;
+    font-size: 16px;
+    padding-bottom:10px;
+    border-bottom:1px solid #ccc;
+}
+.m-product-dtContent span{
+    font-size: 14px;
+}
+.m-product-dtContent ul li{
+    padding-top:10px;
+    padding-bottom:10px;
+}
+
+/* -----------新闻动态---------- */
