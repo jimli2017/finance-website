@@ -11,9 +11,8 @@
 }
 
 a {
-    text-decoration: none;
+    text-decoration:none;
 }
-
 p {
     color: #494949;
 }
@@ -298,6 +297,9 @@ ul {
     margin-bottom:36px;
 }
 /* ----标题结束 -----*/
+.m-index-newsBg{
+    background-color:#fff;
+}
 .g-index-news .m-news-detail{
     text-align:center;
 }
@@ -313,6 +315,10 @@ ul {
     background-color:#efeff1;
     width:100%;
     height:50px;
+}
+.m-news-detail .u-nwes-btn .u-index-btn:hover{
+    background-color:#cb2a39;
+    color:#fff;
 }
 .g-index-news .m-news-detail .m-news-box{
     margin-bottom:20px;
@@ -500,6 +506,9 @@ ul {
     padding-left:0px;
     margin-top:20px;
 }
+.m-product-margin .u-product-img a{
+    text-decoration:none;
+}
 .m-product-showimg .u-product-img{
     border: 1px solid #ccc;
 }
@@ -539,3 +548,47 @@ ul {
 }
 
 /* -----------新闻动态---------- */
+.m-news-content a{
+    text-decoration:none;
+}
+.m-news-paddingLf{
+    padding-left:0px;
+    margin-top:20px;
+}
+.m-news-lsImg img{
+    width: 100%;
+}
+.m-news-paddingLf .m-news-content .u-news-title{
+    font-size: 18px;
+    font-weight:bold;
+    color:#1e1e1e;
+}
+.m-news-content:hover .u-news-title{
+    color:#cb2a39;
+}
+.m-news-content .u-news-time{
+    font-size: 16px;
+    color: #b8b8b8;
+
+}
+.m-news-lsImg{
+    border:1px solid #ccc;
+    box-shadow: 4px 4px 4px #d4d4d4;
+}
+/* -----------新闻动态详情---------- */
+.m-news-ditailText p{
+    text-indent: 20px;
+}
+
+/* -----------联系我们-------------- */
+.m-content-margintop{
+    margin-top:20px;
+}
+/* -----右侧站点地图a标签样式------- */
+.m-detail-hd .u-hd-right a{
+    text-decoration:none;
+    color: #494949;
+}
+.m-detail-hd .u-hd-right a:hover{
+    color: #cb2a39;
+}
